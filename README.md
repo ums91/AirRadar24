@@ -18,4 +18,5 @@ Navigate to the project directory: cd live-flight-tracker
 Open the index.html file in your preferred web browser.
 
 Contributions:
-Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the GitHub repository.
+Contributions to this project are welcome! 
+As an amateur programmer, I understand that my code may contain errors and may not follow best practices. This GitHub repository is a learning space where I document my progress and seek guidance from the community. I kindly request experienced developers to provide constructive feedback, suggestions, and help me improve my coding skills. I appreciate your understanding and support.If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the GitHub repository.
