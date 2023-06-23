@@ -21,7 +21,8 @@
 </head>
 
 <body>
-
+<!-- Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <section id="title">
 <div class="container-fluid">
 
@@ -101,40 +102,30 @@
 
   <!-- Testimonials -->
 
-
- <section id="testimonials">  
-   <div id="testimonial-carousel" class="carousel slide"> 
-     <div class="carousel-indicators">
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-       </div>
-       <div class="carousel-inner">
-         <div class="carousel-item active">
-         <h2 class="testimonial-text">An absolute game-changer! <br> AirRadar24 has become an indispensable tool for my journeys..</h2>
-         <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-         <em>Pebbles, New York</em>
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500" data-bs-pause"hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">An absolute game-changer! <br> AirRadar24 has become an indispensable tool for my journeys..</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
         </div>
-      
         <div class="carousel-item">
-         <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-         <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-         <em>Beverly, Illinois</em> 
+          <h2 class="testimonial-text">AirRadar24 is honestly one of the best flight trackers I have ever seen..</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
         </div>
-       </div>
-
-     <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
-     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-     <span class="visually-hidden">Previous</span>
-     </button>
-     <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
-     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-     <span class="visually-hidden">Next</span>
-     </button>
-   </div>
-
-  </section> 
-
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
 
 
@@ -280,8 +271,8 @@
   <section id="cta">
 
     <h3 class="cta-heading">The world's most popular flight tracker. <br> #1 Travel app in over 150 countries.</h3>
-    <button type="button" class="btn btn-dark btn-lg" style="margin-left: 300px;"> <i class="fab fa-apple"></i> Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>Download</button>
+    <button type="button" class="btn btn-dark btn-lg cta-button"> <i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg cta-button"><i class="fab fa-google-play"></i>Download</button>
 
   </section>
 

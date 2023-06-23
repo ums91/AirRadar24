@@ -154,7 +154,8 @@ color: #fff;
 #cta {
     background-color: #9BABB8;
     color: #fff;
-    padding: 7% 15%;
+    padding: 5% 10%;
+    text-align: center;
 }
 
 .cta-heading{
@@ -164,6 +165,10 @@ color: #fff;
     line-height: 1.5;
     text-align: center;
 }
+
+.cta-button {
+    margin: 4% 3% 2% 0;
+  }
 
 #footer{
 
@@ -180,6 +185,8 @@ color: #fff;
     .title-image{
         position: static;
         transform: rotate(0);
+        width: 50%;
+        padding: 30px 0;
 
     }
 }
