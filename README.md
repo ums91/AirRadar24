@@ -11,7 +11,6 @@ Bootstrap: Bootstrap is utilized to enhance the website's responsiveness and pro
 
 To set up the website locally, follow these steps:
 
-Clone the repository: git clone https://github.com/ums91/live-flight-tracker.git
 
 Navigate to the project directory: cd live-flight-tracker
 
